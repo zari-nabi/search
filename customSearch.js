@@ -401,7 +401,7 @@ const initialValues = (function () {
     const searchBar = document.getElementById("functional-searchbar");
     const searchQuery = "";
     const histories = [];
-    const baseUrl = `https://localhost:5001`;
+    const baseUrl = `http://2.144.245.172:8050/searchapi`;
     const options = {
         searchUrl: `${baseUrl}/search?searchTerm`,
         historyUrl: `${baseUrl}/SearchHistory`,
